@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Get your next meal delivered by drone."/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://use.typekit.net/ukq1pvn.css">
+    
+    <link rel="stylesheet" href="delivery.css">
+    
+    <meta charset="UTF-8">
+    <title>Bionicle Hub</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <h1>Bionicle Hub </h1>
+        <p>All things bionicle</p>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li ><a href="index.html">About Us</a></li>
+            <li class="active"><a href="delivery.html">Purchase A Toa</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Purchase a Toa</h1>
+    <form method="get" class="myform" action="thanks.html">
+   
+        <fieldset>
+            <legend>Costomer Information</legend>
+   <label>First Name* <input type="text" name="first_name" required> </label>
+   <label>Last Name* <input type="text" name="last_name" required></label>
+   <label>Cell Number* <input type="tel" name="phone" placeholder="801-555-3434" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Toa Element</legend>
+            <label><input type="radio" name="method" value="Toa Mata">Ice</label>
+            <label><input type="radio" name="method" value="Toa Mahri">Fire</label>
+            <label><input type="radio" name="method" value="Toa Mangai">Water</label>
+            <label><input type="radio" name="method" value="Toa Mangai">Jungle</label>
+            <label><input type="radio" name="method" value="Toa Mangai">Earth</label>
+            <label><input type="radio" name="method" value="Toa Mangai">Rock</label>
+            <label><input type="radio" name="method" value="Toa Mangai">Sand</label>
+            <label><input type="radio" name="method" value="Toa Mangai">Air</label>
+        </fieldset>
+       
+    <fieldset>
+        <legend>Toa type</legend>
+        <label><input type="checkbox" name="porch" value="porch">Toa Mata</label>
+        <label><input type="checkbox" name="deck" value="deck">Toa Mangai</label>
+        <label><input type="checkbox" name="driveway" value="driveway">Toa Mahri</label>
+        <label><input type="checkbox" name="garage" value="garage">Toa Metru</label>
+        <label><input type="checkbox" name="garage" value="garage">Toa Inika</label>
+        <label><input type="checkbox" name="garage" value="garage">Toa Hordika</label>
+        <label><input type="checkbox" name="garage" value="garage">Toa Nuva</label>
+        <label><input type="checkbox" name="garage" value="garage">Toa Hagah</label>
+        <label><input type="checkbox" name="garage" value="garage">Toa Rahaga</label>
+
+        <br><br>
+        <label>Preferred Condition</label>
+        <select name="time">
+        <option value="none">Please Select</option>
+        <option value="perfect condition">In box</option>
+        <option value="good condition">Newer</option>
+        <option value="Used">Used</option>
+        <option value="Worn">In need of repair</option>
+        </select>
+    </fieldset>
+<label>Comments
+    <textarea name="comments" ></textarea>
+</label>
+<input type="submit" value="Send Bionicle Request">
+    </form> 
+</main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2024 &bull; Bionicle Hub &bull; <a href="mailto:bonklover.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>
