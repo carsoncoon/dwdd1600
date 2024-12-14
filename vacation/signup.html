@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Get your next trip now!.">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        
+    
+    <link rel="stylesheet" href="halosite.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+   
+    <title>UNSC Travel Corps.</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <img src="images/unscsmall.png" alt="logo for Unsc website" width="70" height="100">
+    <div>
+        <h1>UNSC Travel Corps.</h1>
+        <p>Discover the galaxy</p>
+    </div>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="embark.html">Embark</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li class="active"><a href="signup.html">Sign Up</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Travel Today</h1>
+    <form method="get" class="myform" action="thanks.html">
+   
+        <fieldset>
+            <legend>Costomer Information</legend>
+   <label>First Name* <input type="text" name="first_name" required> </label>
+   <label>Last Name* <input type="text" name="last_name" required></label>
+   <label>Cell Number* <input type="tel" name="phone" placeholder="801-555-3434" required></label>
+   <label>Email* <input type="email" name="your email" placeholder="sparten117@email.com" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ship</legend>
+            <label><input type="radio" name="element" value="UNSC Shadow Traveler">UNSC Shadow Traveler</label>
+            <label><input type="radio" name="element" value="UNSC Beneath a Cold Moon">UNSC Beneath a Cold Moon</label>
+            <label><input type="radio" name="element" value="UNSC Vault of Midnight">UNSC Vault of Midnight</label>
+            <label><input type="radio" name="element" value="UNSC In Desert and Wilderness">UNSC In Desert and Wilderness</label>
+            <label><input type="radio" name="element" value="UNSC Merciless">UNSC Merciless</label>
+            <label><input type="radio" name="element" value="UNSC A Road of Good Intentions">UNSC A Road of Good Intentions</label>
+            <label><input type="radio" name="element" value="UNSC Lands of the Undying">UNSC Lands of the Undying</label>
+        </fieldset>
+       
+    <fieldset>
+        <legend>Destinations</legend>
+        <label><input type="checkbox" name="planet" value="type">Albion</label>
+        <label><input type="checkbox" name="planet" value="type">Andesia</label>
+        <label><input type="checkbox" name="planet" value="type">Fell Justice</label>
+        <label><input type="checkbox" name="planet" value="type">Halo</label>
+        <label><input type="checkbox" name="planet" value="type">Harvest</label>
+        <label><input type="checkbox" name="planet" value="type">Hope</label>
+        <label><input type="checkbox" name="planet" value="type">Jacinto</label>
+        <label><input type="checkbox" name="planet" value="type">Jörmungandr</label>
+        <label><input type="checkbox" name="planet" value="type">Mazovia</label>
+        <label><input type="checkbox" name="planet" value="type">Reach</label>
+        <label><input type="checkbox" name="planet" value="type">Sanghelios</label>
+        <label><input type="checkbox" name="planet" value="type">Taradia</label>
+        <br><br>
+        <label>Preferred Time of Departure</label>
+        <select name="condition">
+        <option value="none">Please Select</option>
+        <option value="early">morning</option>
+        <option value="middle">noon</option>
+        <option value="late">afternoon</option>
+        <option value="later">evening</option>
+        </select>
+    </fieldset>
+<label> Comments
+    <textarea name="comments" ></textarea>
+</label>
+<input type="submit" value="Send Request">
+    </form> 
+</main>
+    
+    <!-- start the page footer -->
+    <footer>
+         <p>&copy;2560 &bull; UNSC Travel Corps. &bull; <a href="mailto:UNSC@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>
